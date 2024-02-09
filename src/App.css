@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #de2ab1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p.h{
+  display: inline-block;
+  padding: 10px;
+  color: #e2e7e8;
+  font-size:15px ;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  word-wrap: break-word;
+  box-sizing: 20px;
+  background-color:#de2ab1;
+}
+
+
+
+h3.f{
+  display: inline-block;
+  padding: 10px;
+  color: #f5f8f9;
+  font-size:15px ;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  word-wrap: break-word;
+  box-sizing: 20px;
+  background-color: #de2ab1;
+}
+.column {
+  float: left;
+  width: 22.5%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(214, 48, 164);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }
